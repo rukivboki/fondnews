@@ -1,4 +1,4 @@
-
+/*
 export default async function handler(req, res) {
   const groupId = '116712716';
   const offset = req.query.offset || 0;
@@ -11,7 +11,7 @@ export default async function handler(req, res) {
 
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.status(200).json(data);
-}
+}*/
 
 export default async function handler(req, res) {
   res.setHeader("Access-Control-Allow-Origin", "*");
